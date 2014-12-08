@@ -2,11 +2,12 @@
 # Cookbook Name:: mediawiki
 # Attribute:: default
 #
-# Copyright (C) 2014 YOUR_NAME
+# Copyright (C) 2014 Patrick Moore
 #
 # All rights reserved - Do Not Redistribute
 #
 
+default['mediawiki']['enable_https'] = false
 default['mediawiki']['version'] = '1.24.0'
 default['mediawiki']['path'] = '/var/www/html/wiki'
 default['mediawiki']['mysql_host'] = 'localhost'
