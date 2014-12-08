@@ -21,9 +21,9 @@ mysql_service 'default' do
 end
 
 mysql_db_info = {
-  :host => node['mediawiki']['mysql_host'],
-  :username => 'root',
-  :password => node['mediawiki']['mysql_password']
+  host: node['mediawiki']['mysql_host'],
+  username: 'root',
+  password: node['mediawiki']['mysql_password']
 }
 
 mysql_database node['mediawiki']['mysql_dbname'] do

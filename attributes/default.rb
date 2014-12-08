@@ -16,7 +16,6 @@ default['mediawiki']['mysql_dbname'] = 'wiki'
 default['mediawiki']['mysql_dbuser'] = 'wiki_user'
 default['mediawiki']['mysql_dbpass'] = 'wiki_pass'
 
-
 # Attributes for LocalSettings.php
 # default['mediawiki']['localsettings']['server_name'] = 'Wiki'
 # default['mediawiki']['localsettings']['meta_namespace'] = 'Project'
